@@ -5,5 +5,7 @@
 点下面的注册
 https://trello.com/invite/b/57D7rV6h/050097aeb1a6a5c3500e80b7b598547a/guessmusic
 有想到要做的story就直接添加到trello里。
+
 我下一步先搭好server的架子，引入要用的库。
+
 ----------

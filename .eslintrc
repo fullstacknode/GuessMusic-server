@@ -24,6 +24,8 @@
     "es6": true
   },
   "globals": {
-    "Promise": true
+    "Promise": true,
+    "appRoot": true,
+    "Routes": true
   }
 }
