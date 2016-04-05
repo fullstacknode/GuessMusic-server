@@ -26,6 +26,7 @@
   "globals": {
     "Promise": true,
     "appRoot": true,
-    "Routes": true
+    "Routes": true,
+    "express": true
   }
 }
