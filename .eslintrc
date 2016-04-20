@@ -13,10 +13,13 @@
       "props": false
     }],
     "new-cap": [2, {
-      "capIsNewExceptions": ["express.Router"]
+      "newIsCap": true,
+      "capIsNew": false
     }],
     "eqeqeq": [2, "smart"],
     "max-len": 0,
+    "comma-style": [2, "last"],
+    "comma-dangle": [2, "never"]
   },
   "env": {
     "mocha": true,

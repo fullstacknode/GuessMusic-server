@@ -1,2 +1,2 @@
-import './initEnv';
+import '../src/initEnv';
 import './specHelpers/chai';

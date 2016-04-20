@@ -1,7 +1,7 @@
 {
   "name": "guessmusic-server",
   "version": "1.0.0",
-  "description": "---------- 2016/04/03 [JJ]  参照 https://github.com/timnew/sa-sdk-node 的架构，使用 trello来做任务记录 点下面的注册 https://trello.com/invite/b/57D7rV6h/050097aeb1a6a5c3500e80b7b598547a/guessmusic 有想到要做的story就直接添加到trello里。 我下一步先搭好server的架子，引入要用的库。 ----------",
+  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "npm test"
@@ -10,18 +10,22 @@
     "type": "git",
     "url": "git+https://github.com/fullstacknode/GuessMusic-server.git"
   },
-  "author": "",
+  "author": "jiajie",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/fullstacknode/GuessMusic-server/issues"
   },
   "homepage": "https://github.com/fullstacknode/GuessMusic-server#readme",
   "dependencies": {
+    "ajv": "^4.0.1",
+    "approot": "^0.2.1",
     "babel-core": "^6.7.4",
     "babel-eslint": "^6.0.2",
+    "babel-plugin-add-module-exports": "^0.1.2",
     "babel-plugin-transform-class-properties": "^6.6.0",
     "babel-plugin-transform-decorators-legacy": "^1.3.4",
     "babel-plugin-transform-es2015-classes": "^6.6.5",
+    "babel-plugin-transform-es2015-modules-commonjs": "^6.7.4",
     "babel-plugin-transform-regenerator": "^6.6.5",
     "babel-preset-es2015": "^6.6.0",
     "babel-preset-stage-0": "^6.5.0",
@@ -34,9 +38,14 @@
     "gulp": "^3.9.1",
     "gulp-babel": "^6.1.2",
     "gulp-start-process": "^1.1.1",
+    "lazily-require": "^0.1.0",
+    "moment": "^2.13.0",
     "morgan": "^1.7.0",
     "ramda": "^0.19.1",
-    "response-time": "^2.3.1"
+    "redis": "^2.5.3",
+    "redis-commands": "^1.1.0",
+    "response-time": "^2.3.1",
+    "then-redis": "^2.0.0"
   },
   "devDependencies": {
     "chai": "^3.5.0",
